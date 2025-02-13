@@ -11,8 +11,10 @@
   justify-self: center;
 }
 
-.logo {
+header img {
   margin-right: 20px;
+  width: 150px;
+  height: 150px;
 }
 .header-menu {
   display: flex;
