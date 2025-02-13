@@ -1,0 +1,72 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+  color: #141414;
+  background-color: #eeeeee;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.subtitulo2,
+.subtitulo3,
+.subtitulo4 {
+  place-self: center;
+  margin-bottom: 10px;
+  font-size: 3rem;
+  color: #888888;
+  text-transform: uppercase;
+}
+
+.idiomas {
+  font-size: 1.125rem;
+  place-self: center;
+  background: #c9c9c9c9;
+  padding: 10px 30px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin: 5px;
+}
+
+.subtitulo3 {
+  margin-top: 20px;
+}
+
+.subtitulo4 {
+  margin-top: 20px;
+}
+
+.contato {
+  background: #c9c9c9c9;
+  padding: 20px;
+  width: 50px;
+  place-self: center;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.contato img {
+  width: 50px;
+  place-self: center;
+}

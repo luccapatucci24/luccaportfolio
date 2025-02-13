@@ -1,0 +1,83 @@
+.cursos {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+}
+
+.cursos .subtitulo {
+  color: #888888; /* Ajustado para um cinza mais visível */
+}
+
+.curso-texto {
+  line-height: 1.33;
+  margin-top: 10px;
+  max-width: 100%; /* Removido "auto", pois não é um valor válido */
+  color: #525252;
+  text-align: left;
+}
+
+.instituicao {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #c9c9c9;
+  border-radius: 4px;
+  border: 2px solid black;
+  position: relative;
+  max-width: 500px;
+  place-self: end;
+  padding: 20px;
+}
+
+.curso-ano {
+  position: absolute;
+  top: 20px;
+  left: -150px;
+  background: #c9c9c9;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.instituicao-nome,
+.curso-nome {
+  place-self: center;
+  text-align: center;
+}
+
+.curso-nome {
+  margin-top: 10px;
+}
+.subtitulo {
+  align-self: center;
+  font-size: 3rem;
+  place-self: center;
+  margin-top: 50px;
+}
+
+.curso-habilidades {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+.curso-habilidades li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background: #eeeeee;
+  padding: 5px 10px;
+  border: 2px solid black;
+}
+
+@media (max-width: 768px) {
+  .subtitulo {
+    word-break: break-all;
+    line-height: 1;
+    max-width: 1ch;
+  }
+}

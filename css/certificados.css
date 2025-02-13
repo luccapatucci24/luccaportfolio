@@ -1,0 +1,25 @@
+.certificados {
+  display: grid;
+  gap: 20px;
+  margin: 20px 40px;
+  max-width: 1200px;
+  place-self: center;
+}
+
+.certificados-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #c9c9c9c9;
+  max-width: 500px;
+  place-self: center;
+  place-items: center;
+  gap: 10px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.certificados-lista p {
+  border: 2px solid black;
+  margin-top: 10px;
+  padding: 5px;
+}
