@@ -15,10 +15,6 @@
 header img {
   width: 150px;
   height: 150px;
-<<<<<<< HEAD
-=======
-  place-self: center;
->>>>>>> c505d0f (favicon)
 }
 .header-menu {
   display: flex;
