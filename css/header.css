@@ -9,11 +9,16 @@
   border-radius: 4px;
   margin: 20px 40px;
   justify-self: center;
+  justify-self: center;
 }
 
 header img {
   width: 150px;
   height: 150px;
+<<<<<<< HEAD
+=======
+  place-self: center;
+>>>>>>> c505d0f (favicon)
 }
 .header-menu {
   display: flex;
